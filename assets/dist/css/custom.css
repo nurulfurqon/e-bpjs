@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.pesan-error
+ {
+	width:100%;
+	height:auto;
+	padding:2px 14px 2px 14px;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+ }
+
+ /* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
